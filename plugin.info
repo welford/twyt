@@ -1,0 +1,7 @@
+{
+	"title": "$:/macros/welford/twyt",
+	"description": "simple youtube macro",
+	"author": "James W. Anderson",
+	"core-version": ">=5.0.0",
+	"list": "readme"
+}

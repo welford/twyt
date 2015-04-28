@@ -36,7 +36,7 @@ exports.run = function(start, name, code) {
 		if("yt-name" in tiddler.fields && !name){
 			name = tiddler.fields["yt-name"];
 		}		
-		if("yt-code" in tiddler.fields){
+		if("yt-code" in tiddler.fields && !code){
 			code = tiddler.fields["yt-code"];
 		}
 	}	
